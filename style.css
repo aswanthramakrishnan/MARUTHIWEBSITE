@@ -1,0 +1,261 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+ul{
+    list-style: none;
+    text-decoration: none;
+}
+ul a{
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+/* <!-- Header Starts --> */
+header{
+   
+    padding: 20px;
+}
+header .logo img{
+    width: 250px;
+    
+   
+    
+}
+header .nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar ul{
+    display: flex;
+    padding: 30px 35px;
+    font-size: 15px;
+    font-weight: 500;
+    
+}
+.navbar ul a{
+    padding: 5px 20px;
+    color: black;
+}
+.navbar ul a:hover{
+    background-color: rgb(227, 110, 110);
+    border-radius: 50px;
+}
+/* main start */
+.hero{
+position: relative;
+
+}
+
+.hero img{
+    width: 100%;
+    height: 80vh;
+}
+.hero .hero-info{
+ position: absolute;
+ top:80%;
+ right: 50%;
+ transform: translate(50%, -50%);
+
+
+
+}
+.hero .hero-info a{
+    color: white;
+    text-decoration: none; 
+    font-size: 25px;
+    border-style: solid;
+    border-color: gray;
+    padding: 8px 10px;
+   
+}
+.hero .hero-info a:hover{
+    color: rgb(94, 161, 161);
+    transition: 0.5s ease-out;
+}
+
+
+
+
+
+
+/* <!-- Header Ends --> */
+
+/* Slider start */
+.container{
+    padding: rem;
+}
+.slider-wrapper{
+    position: relative;
+    max-width: 100rem;
+    margin: 0 auto;
+}
+.slider{
+    display: flex;
+    aspect-ratio: 16 / 5;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem -8.75rem hsla(0,0%,8%,0.25);
+    border-radius: 1.5rem;
+    
+}
+.slider img{
+    flex:1 0 100% ;
+    scroll-snap-align: start;
+    
+}
+.slider-nav{
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: -38.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+.slider-nav a{
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: red;
+    opacity: 0.75;
+    transition: opacity ease 250ms;
+}
+.sliderheading p{
+    
+    font-size: 20px;
+    font-weight: 400;
+    padding: 20px 20px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+
+}
+.sliderheading .range{
+    
+    font-size: 60px;
+    font-weight: 300;
+}
+/* slider ends */
+
+/* Video section */
+
+.newlaunches{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    
+    
+}
+.newlaunches .video-content{
+    width:100%;
+    height: 280px;
+    
+    
+}
+.addvideo{
+   width: 700px;
+  
+}
+.newlaunches .video-content p{
+    display: flex;
+    margin-top: 20px;
+    font-size: 20px;
+    
+
+}
+.newlaunches .video-content .v1{
+font-weight: 400;
+font-size: 40px;
+justify-content: center;
+
+
+
+}
+.NEW-LAUNCH-UPDATE p{
+    
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    padding: 20px 10px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    font-size: 30px;
+    
+}
+.knowmorebutton a{
+    position: absolute;
+    background-color: aqua;
+    top: 75%;
+    left: 2%;
+    border-radius: 20px;
+    padding: 10px;
+    color: black;
+
+}
+.knowmorebutton a:hover{
+    color: blueviolet;
+    transition: 0.5s ease-in-out;
+}
+
+/* service bookings */
+/* form */
+.service {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   
+   
+}
+
+/* form */
+.service-feedback{
+    height: 600px;
+    width: 600px;
+    margin-top: 40px;
+}
+.service-feedback-form{
+    height: 600px;
+    width:500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: bisque;
+    text-transform: capitalize;
+    border-radius: 30px;
+    font-size: 22px;
+}
+.service-feedback-p2{
+    text-align: center;
+    font-size: x-large;
+}
+.service-feedback-form label{
+    font-size: 1.3rem;
+    padding: 3px 0;
+    
+}
+
+.service-feedback-form input, textarea{
+    padding: 6px;
+    border: none;
+    border-radius: 20px;
+    text-transform: capitalize;
+    font-size: 1rem;
+}
+.service-feedback-submit {
+    background-color: aqua;
+   height: 30px;
+   width: 60px;
+   margin: 20px 0px;
+   border-radius: 20px;
+  align-self: flex-end;
+
+    
+}
+
